@@ -119,6 +119,8 @@ body {
 .jlm-logo {
   font-family: "JosefinSans-Light", sans-serif;
   font-weight: light;
+  font-size: 3.5rem;
+  letter-spacing: -0.05em;
 }
 
 .navbar {
@@ -132,4 +134,9 @@ body {
 
 .nav-item {
   font-family: "CenturyGothic", sans-serif;
+  font-size: 1.25em;
+}
+
+.nav-link:hover {
+  color: #3BB9FF;
 }
