@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "JosefinSans";
+  src: url("/fonts/JosefinSans-VariableFont_wght.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "JosefinSans-Italic";
+  src: url("/fonts/JosefinSans-Italic-VariableFont_wght.ttf") format("truetype");
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Lora";
+  src: url("/fonts/Lora-VariableFont_wght.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Lora-Italic";
+  src: url("/fonts/Lora-Italic-VariableFont_wght.ttf") format("truetype");
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "CenturyGothic";
+  src: url("/fonts/Century-Gothic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "CenturyGothic-Italic";
+  src: url("/fonts/Century-Gothic-Italic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "CenturyGothic-Bold";
+  src: url("/fonts/Century-Gothic-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "CenturyGothic-Bold-Italic";
+  src: url("/fonts/Century-Gothic-Bold-Italic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: bold;
+}
