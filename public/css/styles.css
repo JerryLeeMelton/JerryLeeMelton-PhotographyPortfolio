@@ -151,8 +151,14 @@ body {
   background-color: red; /*CHANGE THIS ========================== */
 }
 
-.dropdown-item:active,
-.dropdown-item:focus,
-.dropdown-item:active {
+.portfolio-menu-item {
+  text-decoration: none;
+  padding-left: 1.25em;
+
+}
+
+.portfolio-menu-item:active,
+.portfolio-menu-item:focus,
+.portfolio-menu-item:hover {
   color: #3BB9FF;
 }
