@@ -129,7 +129,11 @@ body {
   position: fixed;
 
   transition: 0.4s;
-  background-color: purple;
+  background-color: #FFC4C5; /*CHANGE THIS ========================== */
+}
+
+.navbar a {
+  color: #000000;
 }
 
 .nav-item {
@@ -137,6 +141,18 @@ body {
   font-size: 1.25em;
 }
 
+.nav-link:active,
+.nav-link:focus,
 .nav-link:hover {
+  color: #3BB9FF;
+}
+
+.dropdown-menu {
+  background-color: red; /*CHANGE THIS ========================== */
+}
+
+.dropdown-item:active,
+.dropdown-item:focus,
+.dropdown-item:active {
   color: #3BB9FF;
 }
