@@ -1,3 +1,4 @@
+/* Font Imports ============================================================= */
 @font-face {
   font-family: "JosefinSans";
   src: url("/fonts/JosefinSans-VariableFont_wght.ttf") format("truetype");
@@ -52,4 +53,27 @@
   src: url("/fonts/Century-Gothic-Bold-Italic.ttf") format("truetype");
   font-style: italic;
   font-weight: bold;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.jlm-logo {
+  font-family: "JosefinSans", sans-serif;
+  font-weight: light;
+}
+
+.navbar {
+  width: 420px;
+  height: 100vh;
+  position: fixed;
+
+  transition: 0.4s;
+  background-color: purple;
+}
+
+.nav-item {
+  font-family: "CenturyGothic", sans-serif;
 }
