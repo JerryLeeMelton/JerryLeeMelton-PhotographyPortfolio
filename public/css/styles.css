@@ -142,6 +142,27 @@ body {
   font-size: 1.25em;
 }
 
+.navbar-item {
+  font-family: "CenturyGothic", sans-serif;
+  font-size: 1.25em;
+}
+
+.navbar-item:focus {
+  color: #000000;
+}
+
+.navbar-link {
+  color: #000000;
+  text-decoration: none;
+
+  transition: 0.3s;
+}
+
+.navbar-link:hover {
+  color: #3BB9FF;
+  transition: 0.3s;
+}
+
 .nav-link:hover {
   color: #3BB9FF;
   transition: 0.3s;
