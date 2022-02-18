@@ -134,6 +134,7 @@ body {
 
 .navbar a {
   color: #000000;
+  transition: 0.3s;
 }
 
 .nav-item {
@@ -141,11 +142,11 @@ body {
   font-size: 1.25em;
 }
 
-.nav-link:active,
-.nav-link:focus,
 .nav-link:hover {
   color: #3BB9FF;
+  transition: 0.3s;
 }
+
 
 .dropdown-menu {
   background-color: red; /*CHANGE THIS ========================== */
@@ -154,11 +155,9 @@ body {
 .portfolio-menu-item {
   text-decoration: none;
   padding-left: 1.25em;
-
 }
 
-.portfolio-menu-item:active,
-.portfolio-menu-item:focus,
 .portfolio-menu-item:hover {
   color: #3BB9FF;
+  transition: 0.3s;
 }
