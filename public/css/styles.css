@@ -116,6 +116,8 @@ body {
   background-color: #ffffff;
 }
 
+/* Side Navbar Items ====================================================== */
+
 .jlm-logo {
   font-family: "JosefinSans-Light", sans-serif;
   font-weight: light;
@@ -128,8 +130,7 @@ body {
   height: 100vh;
   position: fixed;
 
-  transition: 0.4s;
-  background-color: #FFC4C5; /*CHANGE THIS ========================== */
+  background-color: #FFE3E3; /*CHANGE THIS ========================== */
 }
 
 .navbar a {
@@ -181,4 +182,9 @@ body {
 .portfolio-menu-item:hover {
   color: #3BB9FF;
   transition: 0.3s;
+}
+
+/* Main Content ============================================================= */
+#main-content-container {
+  padding-left: 420px;
 }
