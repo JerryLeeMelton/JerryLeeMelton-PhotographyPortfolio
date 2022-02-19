@@ -1,0 +1,112 @@
+/* Font Imports ============================================================= */
+@font-face {
+  font-family: "JosefinSans";
+  src: url("/fonts/JosefinSans-VariableFont_wght.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "JosefinSans-Light";
+  src: url("/fonts/JosefinSans-VariableFont_wght.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "JosefinSans-ExtraLight";
+  src: url("/fonts/JosefinSans-VariableFont_wght.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "JosefinSans-Thin";
+  src: url("/fonts/JosefinSans-VariableFont_wght.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "JosefinSans-Medium";
+  src: url("/fonts/JosefinSans-VariableFont_wght.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "JosefinSans-Bold";
+  src: url("/fonts/JosefinSans-VariableFont_wght.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "JosefinSans-Italic";
+  src: url("/fonts/JosefinSans-Italic-VariableFont_wght.ttf") format("truetype");
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Lora";
+  src: url("/fonts/Lora-VariableFont_wght.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Lora-Medium";
+  src: url("/fonts/Lora-VariableFont_wght.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Lora-SemiBold";
+  src: url("/fonts/Lora-VariableFont_wght.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Lora-Bold";
+  src: url("/fonts/Lora-VariableFont_wght.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Lora-Italic";
+  src: url("/fonts/Lora-Italic-VariableFont_wght.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "CenturyGothic";
+  src: url("/fonts/Century-Gothic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "CenturyGothic-Italic";
+  src: url("/fonts/Century-Gothic-Italic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "CenturyGothic-Bold";
+  src: url("/fonts/Century-Gothic-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "CenturyGothic-Bold-Italic";
+  src: url("/fonts/Century-Gothic-Bold-Italic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: bold;
+}
