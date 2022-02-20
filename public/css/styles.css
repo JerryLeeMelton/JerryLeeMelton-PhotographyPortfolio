@@ -33,7 +33,7 @@ ul {
 }
 
 .header-text {
-
+  margin-bottom: 1.5rem;
 }
 
 .text-wrapper {
@@ -42,14 +42,43 @@ ul {
 
 .body-wrapper {
   padding-top: 6rem;
+  padding-left: 3.2rem;
+  padding-right: 3.2rem;
 }
 
 .jlm-portrait {
-  max-width: 55%;
+  max-width: 50%;
   height: auto;
-  padding-top: 3.6rem;
+  padding-top: 4.9rem;
   padding-left: 2.4rem;
   padding-bottom: 2.4rem;
+}
+
+.jlm-button {
+  font-family: "CenturyGothic-Bold", sans-serif;
+  background-color: #ffffff;
+  border: 1px solid #808080;
+  border-radius: 10px;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  padding: 0.6rem 2rem 0.6rem 2rem;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.jlm-button:hover {
+  background-color: #303030;
+  border: 1px solid #303030;
+  color: #ffffff;
+}
+
+.jlm-button:active {
+  border: 1px solid #3BB9FF;
+  background-color: #3BB9FF;
+}
+
+.jlm-button:focus {
+  outline: none !important;
 }
 
 /* Navbar Styles ============================================================ */
@@ -64,7 +93,6 @@ ul {
   margin-right: 0;
   text-align: center;
 }
-
 
 .sidebar {
   position: fixed;
