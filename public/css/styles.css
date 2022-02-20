@@ -32,8 +32,24 @@ ul {
   font-size: 1.2rem;
 }
 
+.header-text {
+
+}
+
 .text-wrapper {
-  
+
+}
+
+.body-wrapper {
+  padding-top: 6rem;
+}
+
+.jlm-portrait {
+  max-width: 55%;
+  height: auto;
+  padding-top: 3.6rem;
+  padding-left: 2.4rem;
+  padding-bottom: 2.4rem;
 }
 
 /* Navbar Styles ============================================================ */
