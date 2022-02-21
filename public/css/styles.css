@@ -42,6 +42,12 @@ ul {
   padding-right: 3.2rem;
 }
 
+.portfolio-body-wrapper {
+  padding-top: 1rem;
+  padding-left: 3.2rem;
+  padding-right: 3.2rem;
+}
+
 .jlm-portrait {
   max-width: 50%;
   height: auto;
