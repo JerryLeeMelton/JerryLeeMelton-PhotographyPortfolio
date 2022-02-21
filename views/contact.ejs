@@ -2,10 +2,33 @@
 
 <%- include("partials/navbar") -%>
 
-<div class="body-wrapper">
-  <h1>contact</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<div class="body-wrapper contact-page-width">
+  <h1 class="header-text">Contact Me</h1>
+
+  <p class="main-text">If you have any questions, comments, quote inquiries, or anything else then please don’t hesitate to get in touch with me via the form below. I look forward to hearing from you!</p>
+
+  <form class="" action="index.html" method="post">
+
+    <div class="contact-form-div">
+      <label for="" class="contact-label">Name <span class="contact-asterisk">*</span></label>
+      <input type="text" name="name" value="" class="contact-text-field">
+      <br>
+    </div>
+
+    <div class="contact-form-div">
+      <label for="" class="contact-label">Email <span class="contact-asterisk">*</span></label>
+      <input type="text" name="email" value="" class="contact-text-field">
+      <br>
+    </div>
+
+    <div class="contact-form-div">
+      <label for="" class="contact-label">Message <span class="contact-asterisk">*</span></label>
+      <textarea name="name" rows="8" cols="80" class="contact-text-area"></textarea>
+      <br>
+    </div>
+
+    <button type="button" name="button" class="btn jlm-button">Send</button>
+  </form>
 </div>
 
 <%- include("partials/footer") -%>
