@@ -12,6 +12,29 @@ ul {
   list-style: none;
 }
 
+/* Home Page ================================================================ */
+
+.home-carousel-image {
+
+}
+
+.home-body-wrapper {
+  padding-top: 1rem;
+  padding-left: 3.2rem;
+  padding-right: 3.2rem;
+  margin: auto;
+}
+
+.carousel-div {
+}
+
+@media (max-width: 1000px) {
+  #main-content-container {
+    padding-left: 0px;
+    padding-top: 100px;
+  }
+}
+
 /* Main Content ============================================================= */
 
 #main-content-container {
