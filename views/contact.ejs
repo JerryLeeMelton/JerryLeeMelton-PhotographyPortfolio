@@ -9,27 +9,29 @@
 
     <p class="main-text">If you have any questions, comments, quote inquiries, or anything else then please don’t hesitate to get in touch with me via the form below. I look forward to hearing from you!</p>
 
-    <form class="" action="index.html" method="post">
+    <form class="contact-form" action="index.html" method="post">
 
       <div class="contact-form-div">
-        <label for="" class="contact-label">Name <span class="contact-asterisk">*</span></label>
-        <input type="text" name="name" value="" class="contact-text-field">
+        <label class="contact-label">Name <span class="contact-asterisk">*</span></label>
+        <input id="contact-name" type="text" name="name" value="" class="contact-text-field">
         <br>
       </div>
 
       <div class="contact-form-div">
         <label for="" class="contact-label">Email <span class="contact-asterisk">*</span></label>
-        <input type="text" name="email" value="" class="contact-text-field">
+        <input type="text" id="contact-email" name="email" value="" class="contact-text-field">
         <br>
       </div>
 
       <div class="contact-form-div">
-        <label for="" class="contact-label">Message <span class="contact-asterisk">*</span></label>
-        <textarea name="name" rows="8" cols="80" class="contact-text-area"></textarea>
+        <label class="contact-label">Message <span class="contact-asterisk">*</span></label>
+        <textarea id="contact-message" name="name" rows="8" cols="80" class="contact-text-area"></textarea>
         <br>
       </div>
 
-      <button type="button" name="button" class="btn jlm-button">Send</button>
+      <!-- <button type="button" name="button" class="btn jlm-button">Send</button> -->
+
+      <input type="submit" class="btn jlm-button" value="Send">
     </form>
 
   </div>
