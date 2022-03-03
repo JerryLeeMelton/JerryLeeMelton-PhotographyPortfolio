@@ -12,6 +12,96 @@ ul {
   list-style: none;
 }
 
+/* Navbar Styles ============================================================ */
+.jlm-logo {
+  font-family: "JosefinSans-Light", sans-serif;
+  font-weight: light;
+  font-size: 3.5rem;
+  color: #000000;
+  letter-spacing: -0.05em;
+  margin-top: 5.0rem;
+  margin-right: 0;
+  text-align: center;
+}
+
+.sidebar {
+  position: fixed;
+  height: 100vh;
+  width: 420px;
+  background-color: teal;
+}
+
+.hamburger-button {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  display: none;
+  width: 30px;
+  height: 26px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.burger-bar {
+  height: 3px;
+  width: 100%;
+  background-color: #000000;
+  border-radius: 4px;
+}
+
+.navbar-links {
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: yellow;
+}
+
+.navbar-links a {
+  color: #000000;
+  transition: 0.3s;
+}
+
+.navbar-links a:hover {
+  color: #3BB9FF;
+  transition: 0.3s;
+}
+
+@media (max-width: 1000px) {
+  .sidebar {
+    height: 90px;
+    width: 100vw;
+  }
+
+  .hamburger-button {
+    display: flex;
+  }
+
+  .navbar-links {
+    display: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar-links a {
+    text-align: center;
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+
+  #main-content-container {
+    padding-left: 0px;
+    padding-top: 100px;
+  }
+
+  .jlm-logo {
+    font-size: 3.0rem;
+    margin-top: 0.25rem;
+    margin-left: 2rem;
+    text-align: left;
+  }
+}
+
 /* Home Page ================================================================ */
 .home-container {
   padding-left: 420px;
@@ -19,20 +109,43 @@ ul {
   height: 100vh;
   background-color: red;
 
-}
-
-.carousel-container {
-  width: 100%;
-  height: 100%;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   vertical-align: middle;
 }
 
-.carousel-image {
-  max-width: 90%;
-  max-height: 90%;
+.carousel-wrapper {
+  padding: 2rem;
+
+  max-height: 100%;
+
+  display: inline;
+}
+
+.carousel {
+  margin: auto;
+
+  height: 100%;
+}
+
+.carousel-inner {
+  margin: auto;
+  height: 100%;
+  max-height: 800px;
+  max-width: auto;
+}
+
+.carousel-item {
+  height: 100%;
+}
+
+.active {
+  height: 100%;
+}
+
+.carousel img {
+  vertical-align: middle;
 }
 
 @media (max-width: 1000px) {
@@ -160,98 +273,3 @@ ul {
 .contact-asterisk {
   color: #DA0003;
 }
-
-/* Navbar Styles ============================================================ */
-.jlm-logo {
-  font-family: "JosefinSans-Light", sans-serif;
-  font-weight: light;
-  font-size: 3.5rem;
-  color: #000000;
-  letter-spacing: -0.05em;
-  margin-top: 5.0rem;
-  margin-right: 0;
-  text-align: center;
-}
-
-.sidebar {
-  position: fixed;
-  height: 100vh;
-  width: 420px;
-  background-color: teal;
-}
-
-.hamburger-button {
-  position: absolute;
-  top: 2rem;
-  right: 2rem;
-  display: none;
-  width: 30px;
-  height: 26px;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.burger-bar {
-  height: 3px;
-  width: 100%;
-  background-color: #000000;
-  border-radius: 4px;
-}
-
-.navbar-links {
-  flex-direction: column;
-  align-items: flex-start;
-  background-color: yellow;
-}
-
-.navbar-links a {
-  color: #000000;
-  transition: 0.3s;
-}
-
-.navbar-links a:hover {
-  color: #3BB9FF;
-  transition: 0.3s;
-}
-
-@media (max-width: 1000px) {
-  .sidebar {
-    height: 90px;
-    width: 100vw;
-  }
-
-  .hamburger-button {
-    display: flex;
-  }
-
-  .navbar-links {
-    display: none;
-    width: 100%;
-    text-align: center;
-  }
-
-  .navbar-links a {
-    text-align: center;
-  }
-
-  .navbar-links.active {
-    display: flex;
-  }
-
-  #main-content-container {
-    padding-left: 0px;
-    padding-top: 100px;
-  }
-
-  .jlm-logo {
-    font-size: 3.0rem;
-    margin-top: 0.25rem;
-    margin-left: 2rem;
-    text-align: left;
-  }
-}
-
-
-
-
-/* Working ================================================================== */
