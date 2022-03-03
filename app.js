@@ -4,6 +4,8 @@ const ejs = require("ejs");
 
 const app = express();
 
+const PORT = process.env.PORT || 3000;
+
 app.set("view engine", "ejs");
 app.use(express.static("public"));
 
@@ -35,6 +37,6 @@ app.get("/contact", (req, res) => {
   res.render("contact");
 });
 
-app.listen(3000, () => {
-  console.log("Server started on port 3000.");
+app.listen(PORT, () => {
+  console.log(`Server started on port ${PORT}.`);
 });
