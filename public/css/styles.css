@@ -62,12 +62,14 @@ ul {
 
 .navbar-links a {
   color: #000000;
-  transition: 0.3s;
+  /* transition: 0.3s; */
+  transition: color 0.3s;
 }
 
 .navbar-links a:hover {
   color: #3BB9FF;
-  transition: 0.3s;
+  /* transition: 0.3s; */
+  transition: color 0.3s;
 }
 
 #portfolioDropdownMenu a {
