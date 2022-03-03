@@ -28,7 +28,7 @@ ul {
   position: fixed;
   height: 100vh;
   width: 420px;
-  background-color: teal;
+  background-color: #FFFFFF;
 }
 
 .hamburger-button {
@@ -52,7 +52,7 @@ ul {
 .navbar-links {
   flex-direction: column;
   align-items: flex-start;
-  background-color: yellow;
+  background-color: #FFFFFF;
 }
 
 .navbar-links a {
@@ -69,6 +69,14 @@ ul {
   margin-left: 1.2rem;
 }
 
+#portfolioDropdownMenu hr {
+  visibility: hidden;
+  margin: 0;
+  padding: 0;
+  height: 0;
+  width: 0;
+}
+
 @media (max-width: 1000px) {
   .sidebar {
     height: 90px;
@@ -80,6 +88,7 @@ ul {
   }
 
   .navbar-links {
+    font-size: 2rem;
     display: none;
     width: 100%;
     text-align: center;
@@ -91,6 +100,7 @@ ul {
 
   .navbar-links.active {
     display: flex;
+    height: 100vh;
   }
 
   .jlm-logo {
@@ -98,6 +108,24 @@ ul {
     margin-top: 0.25rem;
     margin-left: 2rem;
     text-align: left;
+  }
+
+  .navbar-links {
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+  }
+
+  #portfolioDropdownMenu a {
+    margin-left: 0;
+  }
+
+  #portfolioDropdownMenu hr {
+    visibility: visible;
+    margin: 1rem 0 0 0;
+    padding: 0;
+    height: 1px;
+    width: 100%;
   }
 }
 
