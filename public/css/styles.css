@@ -24,6 +24,10 @@ ul {
   text-align: center;
 }
 
+.jlm-logo:hover {
+  color: #000000;
+}
+
 .sidebar {
   position: fixed;
   height: 100vh;
