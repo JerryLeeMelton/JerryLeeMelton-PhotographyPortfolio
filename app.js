@@ -9,39 +9,39 @@ const PORT = process.env.PORT || 3000;
 
 require("dotenv").config();
 app.set("view engine", "ejs");
-app.use(express.static("public"));
+app.use("/photography/static", express.static("public"));
 app.use(express.json());
 
-app.get("/", (req, res) => {
+app.get("/photography", (req, res) => {
   res.render("home");
 });
 
-app.get("/portfolio-abstract", (req, res) => {
+app.get("/photography/portfolio-abstract", (req, res) => {
   res.render("portfolio-abstract");
 });
 
-app.get("/portfolio-product", (req, res) => {
+app.get("/photography/portfolio-product", (req, res) => {
   res.render("portfolio-product");
 });
 
-app.get("/portfolio-natureandcity", (req, res) => {
+app.get("/photography/portfolio-natureandcity", (req, res) => {
   res.render("portfolio-natureandcity");
 });
 
-app.get("/portfolio-food", (req, res) => {
+app.get("/photography/portfolio-food", (req, res) => {
   res.render("portfolio-food");
 });
 
-app.get("/about", (req, res) => {
+app.get("/photography/about", (req, res) => {
   res.render("about");
 });
 
-app.get("/contact", (req, res) => {
+app.get("/photography/contact", (req, res) => {
   res.render("contact");
 });
 
 // Contact Form ===============================================================
-app.post("/", (req, res)=>{
+app.post("/photography", (req, res) => {
 
   const transporter = nodemailer.createTransport({
     host: "server264.web-hosting.com",
@@ -70,16 +70,14 @@ app.post("/", (req, res)=>{
     text: messageBody
   };
 
-  transporter.sendMail(mailOptions, (error, info)=>{
+  transporter.sendMail(mailOptions, (error, info) => {
     if (error) {
       console.log(error);
       res.send("error");
-    }
-    else {
+    } else {
       console.log("Email sent: " + info.response);
       res.send("success");
     }
-
   });
 
 });
